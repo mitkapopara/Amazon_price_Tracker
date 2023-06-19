@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 
-MY_EMAIL = "notmeet2@gmail.com"
-MY_PASSWORD = "rjtadyqdhtquekzv"
+MY_EMAIL = ""
+MY_PASSWORD = ""
 
 response = requests.get(url="https://www.amazon.com/dp/B075CYMYK6?psc=1&ref_=cm_sw_r_cp_ud_ct_FM9M699VKHTT47YD50Q6",
                         headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, "
